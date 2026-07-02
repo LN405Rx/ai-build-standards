@@ -64,5 +64,10 @@ advice; for regulated products consult qualified counsel.
 This repo is the free **standards**. If you want the step-by-step **build pipelines** —
 Website, Dashboard, Mobile App, and Watch App, each as a SKILL.md + Cursor rule — plus a
 long-form PDF version of the whole system, there's a paid **Skills Edition** and PDF
-bundle here: **[your Gumroad / Etsy link]**. Buying it supports the free version. Totally
+bundle here: 
+
+https://www.etsy.com/shop/PromptPixelStore
+https://5423010820992.gumroad.com/
+
+Buying it supports the free version. Totally
 optional — the standards above stand on their own.
