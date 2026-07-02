@@ -1,0 +1,25 @@
+---
+description: Security baseline for auth, data, APIs, and deployment
+alwaysApply: true
+---
+# Security & Safety Hardening Standard
+
+Engineering guidance, not legal advice. Nothing is "unhackable" — never claim it. Goal:
+defense in depth (raise attack cost, shrink surface, assume breach, limit blast radius).
+
+Classify data first, calibrate accordingly: regulated health data (PHI) = highest;
+financial IP/credentials = high; children's data = high (collect nothing: local-first,
+no backend, no accounts); general consumer/marketing = standard.
+
+Core principles: least privilege; minimize attack surface; assume breach; secure by
+default / fail closed; defense in depth; never trust the client (enforce server-side,
+never ship secrets in client code).
+
+Baseline (all tiers): secrets in env vars never committed; security headers (CSP/HSTS);
+parameterized queries + input validation; tokenized payments; rate limiting on public
+endpoints; dependency hygiene; server-side authz + MFA on privileged paths.
+
+Higher tiers (PHI/financial/children's): encryption at rest+transit; audit logging with
+secrets/PII scrubbed; hard prod/dev isolation with no real data outside prod; signed
+vendor data-processing agreements; scoped least-privilege tokens. Verify with adversarial
+testing and a real backup restore — don't assert.
