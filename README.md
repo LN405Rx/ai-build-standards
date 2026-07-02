@@ -67,7 +67,8 @@ long-form PDF version of the whole system, there's a paid **Skills Edition** and
 bundle here: 
 
 [https://www.etsy.com/shop/PromptPixelStore](https://www.etsy.com/shop/PromptPixelStore)
-[https://gumroad.com/products](https://gumroad.com/products)
+
+https://5423010820992.gumroad.com/
 
 Buying it supports the free version. Totally
 optional — the standards above stand on their own.
